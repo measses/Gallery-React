@@ -7,7 +7,7 @@ function App() {
   const[images, setImages] = useState([]);
   const[isLoading, setIsLoading] = useState(true);
   const[term, setTerm] = useState('');
-  const key = "process.env.REACT_APP_PIXABAY_API_KEY"
+  const key = "39761635-404f05f84860cf0888f3ad96f"
   useEffect(() => {
     fetch(`https://pixabay.com/api/?key=${key}&q=${term}&image_type=photo&pretty=true`)
     .then(res => res.json())
