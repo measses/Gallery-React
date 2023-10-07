@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import ImageCard from './components/ImageCard';
 import ImageSearch from './components/ImageSearch';
 import Navbar from './components/Navbar';
+import NavbarCentered from './components/NavbarCentered';
 
 function App() {
   const[images, setImages] = useState([]);
@@ -20,9 +21,10 @@ function App() {
 
   return (
     <div className="container mx-auto">
-      <div className="flex items-center justify-center">
-        <Navbar />
-      </div>
+      <div className="container mx-auto">
+      <NavbarCentered />
+      
+    </div>
   
   <ImageSearch searchText={(text) => setTerm(text)} />
   <div className="relative">
