@@ -49,8 +49,6 @@ PixGallery, React ve Vite ile geliştirilmiş bir stok fotoğraf uygulamasıdır
 --HATA--
 ![hata](https://github.com/measses/Gallery-React/assets/67739721/bb41c7e4-8d8a-4c7b-8c86-5ac7c5e3b962)
 
---MOBİL--
-![mobile](https://github.com/measses/Gallery-React/assets/67739721/e459e5c2-da81-496d-b5bb-34e025b00af9)
 
 
 
