@@ -18,6 +18,9 @@ PixGallery, React ve Vite ile geliştirilmiş bir stok fotoğraf uygulamasıdır
 - React Share : Fotoğrafları paylaşmak için kullanıldı.
 - Tailwind CSS: Hızlı ve yeniden kullanılabilir stil oluşturmak için kullanıldı.
 
+## Canlı Demo 
+### [gallery-react-eight.vercel.app](https://gallery-react-eight.vercel.app)
+
 ## Nasıl Kullanılır
 
 1. Projeyi klonlayın:
