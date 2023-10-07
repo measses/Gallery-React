@@ -56,7 +56,7 @@ const ImageCard = ({ image }) => {
         ))}
       </div>
       <div className="px-6 py-4">
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+  <div className="grid grid-cols-2 mx-5 md:grid-cols-4 gap-2">
     <FacebookShareButton url={shareUrl} className="mx-1">
       <FacebookIcon size={32} round />
     </FacebookShareButton>
