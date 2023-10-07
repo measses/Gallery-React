@@ -23,12 +23,12 @@ PixGallery, React ve Vite ile geliştirilmiş bir stok fotoğraf uygulamasıdır
 1. Projeyi klonlayın:
 
    ```bash
-   git clone https://github.com/measses/ShopZoom-React.git
+   git clone https://github.com/measses/Gallery-React.git
 
 2. Proje dizinine gidin:
    
    ```bash
-      cd shop-zoom
+      cd Gallery-React
    ```
 3. Bağımlılıkları yükleyin:
    ```bash
