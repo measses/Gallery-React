@@ -55,8 +55,8 @@ const ImageCard = ({ image }) => {
           </span>
         ))}
       </div>
-      <div className="px-6 py-4 text-center"> {/* "text-center" sınıfı ekleyin */}
-  <div className="inline-flex items-center mr-6"> {/* "inline-flex" sınıfı ekleyin */}
+      <div className="px-6 py-4">
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
     <FacebookShareButton url={shareUrl} className="mx-1">
       <FacebookIcon size={32} round />
     </FacebookShareButton>
@@ -71,6 +71,7 @@ const ImageCard = ({ image }) => {
     </WhatsappShareButton>
   </div>
 </div>
+
 
     </div>
   );
